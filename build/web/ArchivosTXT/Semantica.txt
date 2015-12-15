@@ -1,0 +1,13 @@
+no		4.0	Negacion
+nunca		1.0	Negacion
+jamas		1.0	Negacion
+mucho		4.0	Pos
+muy		3.0	Pre
+demasiado	3.0	Pre
+poco 		0.1	Pos
+nada		0.0	Null
+pero    	2.0     Pre
+aunque  	2.0	Pre
+me		5.0	Pre
+estuvo		1.5	Pre
+bastante	3.0	Pre

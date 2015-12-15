@@ -1,0 +1,643 @@
+Oct 21, 2015 12:36:07 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_31\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;c:\Program Files (x86)\AMD APP\bin\x86_64;c:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Skype\Phone\;.
+Oct 21, 2015 12:36:21 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Oct 21, 2015 12:36:21 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2015 12:36:30 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+Oct 21, 2015 12:36:32 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+Oct 21, 2015 12:36:32 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: OpenEJB http://openejb.apache.org/
+Oct 21, 2015 12:36:32 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Startup: Wed Oct 21 12:36:32 MDT 2015
+Oct 21, 2015 12:36:32 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Copyright 1999-2013 (C) Apache OpenEJB Project, All Rights Reserved.
+Oct 21, 2015 12:36:32 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Version: 4.7.1
+Oct 21, 2015 12:36:32 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build date: 20140912
+Oct 21, 2015 12:36:32 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build time: 01:43
+Oct 21, 2015 12:36:32 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+Oct 21, 2015 12:36:32 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.home = C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1
+Oct 21, 2015 12:36:32 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.base = C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1
+Oct 21, 2015 12:36:32 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@646be2c3
+Oct 21, 2015 12:36:32 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Succeeded in installing singleton service
+Oct 21, 2015 12:36:32 PM org.apache.openejb.config.ConfigurationFactory init
+INFO: openejb configuration file is 'C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\conf\tomee.xml'
+Oct 21, 2015 12:36:33 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+Oct 21, 2015 12:36:33 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+Oct 21, 2015 12:36:33 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.system.apps=true'
+Oct 21, 2015 12:36:35 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: openejb
+Oct 21, 2015 12:36:42 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Using openejb.deploymentId.format '{ejbName}'
+Oct 21, 2015 12:36:42 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb openejb/Deployer: EjbDeployment(deployment-id=openejb/Deployer)
+Oct 21, 2015 12:36:42 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb openejb/ConfigurationInfo: EjbDeployment(deployment-id=openejb/ConfigurationInfo)
+Oct 21, 2015 12:36:42 PM org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb MEJB: EjbDeployment(deployment-id=MEJB)
+Oct 21, 2015 12:36:42 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+Oct 21, 2015 12:36:42 PM org.apache.openejb.config.AutoConfig createContainer
+INFO: Auto-creating a container for bean openejb/Deployer: Container(type=STATELESS, id=Default Stateless Container)
+Oct 21, 2015 12:36:42 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "openejb" loaded.
+Oct 21, 2015 12:36:42 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating TransactionManager(id=Default Transaction Manager)
+Oct 21, 2015 12:36:43 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating SecurityService(id=Tomcat Security Service)
+Oct 21, 2015 12:36:44 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=Default Stateless Container)
+Oct 21, 2015 12:36:44 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: openejb
+Oct 21, 2015 12:36:46 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.jndiname.format={deploymentId}{interfaceType.openejbLegacyName}'
+Oct 21, 2015 12:36:46 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=openejb/DeployerBusinessRemote) --> Ejb(deployment-id=openejb/Deployer)
+Oct 21, 2015 12:36:46 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/Deployer!org.apache.openejb.assembler.Deployer) --> Ejb(deployment-id=openejb/Deployer)
+Oct 21, 2015 12:36:46 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/Deployer) --> Ejb(deployment-id=openejb/Deployer)
+Oct 21, 2015 12:36:46 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=openejb/ConfigurationInfoBusinessRemote) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+Oct 21, 2015 12:36:46 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/ConfigurationInfo!org.apache.openejb.assembler.classic.cmd.ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+Oct 21, 2015 12:36:46 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+Oct 21, 2015 12:36:46 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=MEJB) --> Ejb(deployment-id=MEJB)
+Oct 21, 2015 12:36:46 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/MEJB!javax.management.j2ee.ManagementHome) --> Ejb(deployment-id=MEJB)
+Oct 21, 2015 12:36:46 PM org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/MEJB) --> Ejb(deployment-id=MEJB)
+Oct 21, 2015 12:36:46 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+Oct 21, 2015 12:36:46 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+Oct 21, 2015 12:36:46 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Created Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+Oct 21, 2015 12:36:47 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=MEJB, ejb-name=MEJB, container=Default Stateless Container)
+Oct 21, 2015 12:36:47 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=Default Stateless Container)
+Oct 21, 2015 12:36:47 PM org.apache.openejb.assembler.classic.Assembler startEjbs
+INFO: Started Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Stateless Container)
+Oct 21, 2015 12:36:47 PM org.apache.openejb.assembler.classic.Assembler deployMBean
+INFO: Deployed MBean(openejb.user.mbeans:application=openejb,group=org.apache.openejb.assembler.monitoring,name=JMXDeployer)
+Oct 21, 2015 12:36:47 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=openejb)
+Oct 21, 2015 12:36:49 PM org.apache.openejb.server.ServiceManager initServer
+INFO: Creating ServerService(id=cxf)
+Oct 21, 2015 12:36:53 PM org.apache.openejb.server.ServiceManager initServer
+INFO: Creating ServerService(id=cxf-rs)
+Oct 21, 2015 12:36:54 PM org.apache.openejb.server.SimpleServiceManager start
+INFO:   ** Bound Services **
+Oct 21, 2015 12:36:54 PM org.apache.openejb.server.SimpleServiceManager printRow
+INFO:   NAME                 IP              PORT  
+Oct 21, 2015 12:36:54 PM org.apache.openejb.server.SimpleServiceManager start
+INFO: -------
+Oct 21, 2015 12:36:54 PM org.apache.openejb.server.SimpleServiceManager start
+INFO: Ready!
+Oct 21, 2015 12:36:54 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 54766 ms
+Oct 21, 2015 12:36:55 PM org.apache.tomee.catalina.OpenEJBNamingContextListener bindResource
+INFO: Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+Oct 21, 2015 12:36:55 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=UserDatabase)
+Oct 21, 2015 12:36:55 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 21, 2015 12:36:55 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat (TomEE)/7.0.55 (1.7.1)
+Oct 21, 2015 12:36:55 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\conf\Catalina\localhost\javasensei.xml
+Oct 21, 2015 12:36:55 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /javasensei
+Oct 21, 2015 12:36:55 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracting jar: C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\E:\javasensei\javasensei\target\javasensei-1.0
+Oct 21, 2015 12:36:55 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+SEVERE: can't unpack 'C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\E:\javasensei\javasensei\target\javasensei-1.0'
+Oct 21, 2015 12:36:55 PM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base E:\javasensei\javasensei\target\javasensei-1.0 does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:136)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5108)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5292)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:649)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:672)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1862)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Oct 21, 2015 12:36:55 PM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/javasensei]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:649)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:672)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1862)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5293)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Oct 21, 2015 12:36:55 PM org.apache.catalina.startup.HostConfig deployDescriptor
+SEVERE: Error deploying configuration descriptor C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\conf\Catalina\localhost\javasensei.xml
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/javasensei]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:904)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:649)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:672)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1862)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Oct 21, 2015 12:36:55 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\conf\Catalina\localhost\javasensei.xml has finished in 406 ms
+Oct 21, 2015 12:36:55 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\conf\Catalina\localhost\Premoc.xml
+Oct 21, 2015 12:36:55 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /Premoc
+Oct 21, 2015 12:36:57 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: C:\Users\Gilberto\Documents\NetBeansProjects\Premoc\build\web
+Oct 21, 2015 12:36:58 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "C:\Users\Gilberto\Documents\NetBeansProjects\Premoc\build\web" loaded.
+Oct 21, 2015 12:36:58 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: C:\Users\Gilberto\Documents\NetBeansProjects\Premoc\build\web
+Oct 21, 2015 12:36:58 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@646be2c3
+Oct 21, 2015 12:37:01 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+Oct 21, 2015 12:37:01 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+Oct 21, 2015 12:37:01 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+Oct 21, 2015 12:37:01 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+Oct 21, 2015 12:37:01 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 910 ms.
+Oct 21, 2015 12:37:01 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using context file C:\Users\Gilberto\Documents\NetBeansProjects\Premoc\build\web\META-INF\context.xml
+Oct 21, 2015 12:37:01 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=C:\Users\Gilberto\Documents\NetBeansProjects\Premoc\build\web)
+Oct 21, 2015 12:37:06 PM org.apache.openejb.server.cxf.rs.CxfRsHttpListener configureFactory
+INFO: Using providers:
+Oct 21, 2015 12:37:06 PM org.apache.openejb.server.cxf.rs.CxfRsHttpListener configureFactory
+INFO:      org.apache.cxf.jaxrs.provider.JAXBElementProvider@3ccf6851
+Oct 21, 2015 12:37:06 PM org.apache.openejb.server.cxf.rs.CxfRsHttpListener configureFactory
+INFO:      org.apache.openejb.server.cxf.rs.EJBAccessExceptionMapper@71b69065
+Oct 21, 2015 12:37:07 PM org.apache.openejb.server.cxf.rs.CxfRsHttpListener logEndpoints
+INFO: REST Application: http://localhost:80/Premoc/servicios                     -> itc.premoc.ApplicationConfig
+Oct 21, 2015 12:37:07 PM org.apache.openejb.server.cxf.rs.CxfRsHttpListener logEndpoints
+INFO:      Service URI: http://localhost:80/Premoc/servicios/reconocedor         -> Pojo itc.premoc.reconocedor
+Oct 21, 2015 12:37:07 PM org.apache.openejb.server.cxf.rs.CxfRsHttpListener logEndpoints
+INFO:               GET http://localhost:80/Premoc/servicios/reconocedor/        ->      String getHtml()    
+Oct 21, 2015 12:37:07 PM org.apache.openejb.server.cxf.rs.CxfRsHttpListener logEndpoints
+INFO:               GET http://localhost:80/Premoc/servicios/reconocedor/dimelo/ ->      String dime(String) 
+Oct 21, 2015 12:37:07 PM org.apache.openejb.server.cxf.rs.CxfRsHttpListener logEndpoints
+INFO:               PUT http://localhost:80/Premoc/servicios/reconocedor/        ->      void putHtml(String)
+Oct 21, 2015 12:37:07 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\conf\Catalina\localhost\Premoc.xml has finished in 11,666 ms
+Oct 21, 2015 12:37:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\docs
+Oct 21, 2015 12:37:07 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /docs
+Oct 21, 2015 12:37:07 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\docs
+Oct 21, 2015 12:37:07 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\docs" loaded.
+Oct 21, 2015 12:37:07 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\docs
+Oct 21, 2015 12:37:07 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@646be2c3
+Oct 21, 2015 12:37:07 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+Oct 21, 2015 12:37:07 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+Oct 21, 2015 12:37:07 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+Oct 21, 2015 12:37:07 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+Oct 21, 2015 12:37:07 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 7 ms.
+Oct 21, 2015 12:37:07 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\docs)
+Oct 21, 2015 12:37:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\docs has finished in 475 ms
+Oct 21, 2015 12:37:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\host-manager
+Oct 21, 2015 12:37:07 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /host-manager
+Oct 21, 2015 12:37:07 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\host-manager
+Oct 21, 2015 12:37:07 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\host-manager" loaded.
+Oct 21, 2015 12:37:07 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\host-manager
+Oct 21, 2015 12:37:07 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@646be2c3
+Oct 21, 2015 12:37:07 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+Oct 21, 2015 12:37:07 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+Oct 21, 2015 12:37:07 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+Oct 21, 2015 12:37:07 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+Oct 21, 2015 12:37:07 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 9 ms.
+Oct 21, 2015 12:37:07 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using context file C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\host-manager\META-INF\context.xml
+Oct 21, 2015 12:37:07 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\host-manager)
+Oct 21, 2015 12:37:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\host-manager has finished in 267 ms
+Oct 21, 2015 12:37:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\manager
+Oct 21, 2015 12:37:08 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /manager
+Oct 21, 2015 12:37:08 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\manager
+Oct 21, 2015 12:37:08 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\manager" loaded.
+Oct 21, 2015 12:37:08 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\manager
+Oct 21, 2015 12:37:08 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@646be2c3
+Oct 21, 2015 12:37:08 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+Oct 21, 2015 12:37:08 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+Oct 21, 2015 12:37:08 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+Oct 21, 2015 12:37:08 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+Oct 21, 2015 12:37:08 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 13 ms.
+Oct 21, 2015 12:37:08 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using context file C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\manager\META-INF\context.xml
+Oct 21, 2015 12:37:08 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\manager)
+Oct 21, 2015 12:37:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\manager has finished in 453 ms
+Oct 21, 2015 12:37:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\ROOT
+Oct 21, 2015 12:37:08 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /
+Oct 21, 2015 12:37:08 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\ROOT
+Oct 21, 2015 12:37:08 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\ROOT" loaded.
+Oct 21, 2015 12:37:08 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\ROOT
+Oct 21, 2015 12:37:08 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@646be2c3
+Oct 21, 2015 12:37:08 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+Oct 21, 2015 12:37:08 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+Oct 21, 2015 12:37:08 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+Oct 21, 2015 12:37:08 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+Oct 21, 2015 12:37:08 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 13 ms.
+Oct 21, 2015 12:37:08 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\ROOT)
+Oct 21, 2015 12:37:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\ROOT has finished in 268 ms
+Oct 21, 2015 12:37:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\tomee
+Oct 21, 2015 12:37:08 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /tomee
+Oct 21, 2015 12:37:08 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\tomee
+Oct 21, 2015 12:37:08 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\tomee" loaded.
+Oct 21, 2015 12:37:08 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\tomee
+Oct 21, 2015 12:37:08 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@646be2c3
+Oct 21, 2015 12:37:08 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+Oct 21, 2015 12:37:08 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+Oct 21, 2015 12:37:08 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+Oct 21, 2015 12:37:08 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+Oct 21, 2015 12:37:08 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 7 ms.
+Oct 21, 2015 12:37:08 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\tomee)
+Oct 21, 2015 12:37:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\tomee has finished in 324 ms
+Oct 21, 2015 12:37:09 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Oct 21, 2015 12:37:09 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2015 12:37:09 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 14756 ms
+Oct 21, 2015 2:02:34 PM org.apache.cxf.jaxrs.utils.JAXRSUtils findTargetMethod
+WARNING: No operation matching request path "/Premoc/servicios/reconocedor/" is found, Relative Path: /, HTTP Method: POST, ContentType: */*, Accept: */*,. Please enable FINE/TRACE log level for more details.
+Oct 21, 2015 2:02:34 PM org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper toResponse
+WARNING: javax.ws.rs.WebApplicationException
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:415)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:216)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:91)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:263)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:240)
+	at org.apache.openejb.server.cxf.rs.CxfRsHttpListener.onMessage(CxfRsHttpListener.java:187)
+	at org.apache.openejb.server.rest.RsServlet.service(RsServlet.java:53)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+Oct 21, 2015 2:07:48 PM org.apache.cxf.jaxrs.utils.JAXRSUtils findTargetMethod
+WARNING: No operation matching request path "/Premoc/servicios/reconocedor/dimelo/simon" is found, Relative Path: /dimelo/simon, HTTP Method: GET, ContentType: */*, Accept: text/html,application/xhtml+xml,image/webp,application/xml;q=0.9,*/*;q=0.8,. Please enable FINE/TRACE log level for more details.
+Oct 21, 2015 2:07:48 PM org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper toResponse
+WARNING: javax.ws.rs.WebApplicationException
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:415)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:216)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:91)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:263)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:240)
+	at org.apache.openejb.server.cxf.rs.CxfRsHttpListener.onMessage(CxfRsHttpListener.java:187)
+	at org.apache.openejb.server.rest.RsServlet.service(RsServlet.java:53)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+Oct 21, 2015 2:08:02 PM org.apache.cxf.jaxrs.utils.JAXRSUtils findTargetMethod
+WARNING: No operation matching request path "/Premoc/servicios/reconocedor/dimelo/simon" is found, Relative Path: /dimelo/simon, HTTP Method: POST, ContentType: */*, Accept: */*,. Please enable FINE/TRACE log level for more details.
+Oct 21, 2015 2:08:02 PM org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper toResponse
+WARNING: javax.ws.rs.WebApplicationException
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:415)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:216)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:91)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:263)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:240)
+	at org.apache.openejb.server.cxf.rs.CxfRsHttpListener.onMessage(CxfRsHttpListener.java:187)
+	at org.apache.openejb.server.rest.RsServlet.service(RsServlet.java:53)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+Oct 21, 2015 2:08:08 PM org.apache.cxf.jaxrs.utils.JAXRSUtils findTargetMethod
+WARNING: No operation matching request path "/Premoc/servicios/reconocedor/dimelo/simon" is found, Relative Path: /dimelo/simon, HTTP Method: GET, ContentType: */*, Accept: */*,. Please enable FINE/TRACE log level for more details.
+Oct 21, 2015 2:08:08 PM org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper toResponse
+WARNING: javax.ws.rs.WebApplicationException
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:415)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:216)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:91)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:263)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:240)
+	at org.apache.openejb.server.cxf.rs.CxfRsHttpListener.onMessage(CxfRsHttpListener.java:187)
+	at org.apache.openejb.server.rest.RsServlet.service(RsServlet.java:53)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+Oct 21, 2015 2:08:42 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/Premoc] has started
+Oct 21, 2015 2:08:42 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: C:\Users\Gilberto\Documents\NetBeansProjects\Premoc\build\web
+Oct 21, 2015 2:08:43 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: C:\Users\Gilberto\Documents\NetBeansProjects\Premoc\build\web
+Oct 21, 2015 2:08:43 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "C:\Users\Gilberto\Documents\NetBeansProjects\Premoc\build\web" loaded.
+Oct 21, 2015 2:08:43 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: C:\Users\Gilberto\Documents\NetBeansProjects\Premoc\build\web
+Oct 21, 2015 2:08:43 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@646be2c3
+Oct 21, 2015 2:08:43 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+Oct 21, 2015 2:08:43 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 10 ms.
+Oct 21, 2015 2:08:43 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using context file C:\Users\Gilberto\Documents\NetBeansProjects\Premoc\build\web\META-INF\context.xml
+Oct 21, 2015 2:08:43 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=C:\Users\Gilberto\Documents\NetBeansProjects\Premoc\build\web)
+Oct 21, 2015 2:08:43 PM org.apache.openejb.server.cxf.rs.CxfRsHttpListener configureFactory
+INFO: Using providers:
+Oct 21, 2015 2:08:43 PM org.apache.openejb.server.cxf.rs.CxfRsHttpListener configureFactory
+INFO:      org.apache.cxf.jaxrs.provider.JAXBElementProvider@47a4af62
+Oct 21, 2015 2:08:43 PM org.apache.openejb.server.cxf.rs.CxfRsHttpListener configureFactory
+INFO:      org.apache.openejb.server.cxf.rs.EJBAccessExceptionMapper@71b69065
+Oct 21, 2015 2:08:43 PM org.apache.openejb.server.cxf.rs.CxfRsHttpListener logEndpoints
+INFO: REST Application: http://localhost:80/Premoc/servicios                     -> itc.premoc.ApplicationConfig
+Oct 21, 2015 2:08:43 PM org.apache.openejb.server.cxf.rs.CxfRsHttpListener logEndpoints
+INFO:      Service URI: http://localhost:80/Premoc/servicios/reconocedor         -> Pojo itc.premoc.reconocedor
+Oct 21, 2015 2:08:43 PM org.apache.openejb.server.cxf.rs.CxfRsHttpListener logEndpoints
+INFO:               GET http://localhost:80/Premoc/servicios/reconocedor/        ->      String getHtml()    
+Oct 21, 2015 2:08:43 PM org.apache.openejb.server.cxf.rs.CxfRsHttpListener logEndpoints
+INFO:               GET http://localhost:80/Premoc/servicios/reconocedor/dimelo/ ->      String dime(String) 
+Oct 21, 2015 2:08:43 PM org.apache.openejb.server.cxf.rs.CxfRsHttpListener logEndpoints
+INFO:               PUT http://localhost:80/Premoc/servicios/reconocedor/        ->      void putHtml(String)
+Oct 21, 2015 2:08:43 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/Premoc] is completed
+Oct 21, 2015 2:08:49 PM org.apache.cxf.jaxrs.utils.JAXRSUtils findTargetMethod
+WARNING: No operation matching request path "/Premoc/servicios/reconocedor/dimelo/simon" is found, Relative Path: /dimelo/simon, HTTP Method: GET, ContentType: */*, Accept: */*,. Please enable FINE/TRACE log level for more details.
+Oct 21, 2015 2:08:49 PM org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper toResponse
+WARNING: javax.ws.rs.WebApplicationException
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:415)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:216)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:91)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:263)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:240)
+	at org.apache.openejb.server.cxf.rs.CxfRsHttpListener.onMessage(CxfRsHttpListener.java:187)
+	at org.apache.openejb.server.rest.RsServlet.service(RsServlet.java:53)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+Oct 21, 2015 2:08:55 PM org.apache.cxf.jaxrs.utils.JAXRSUtils findTargetMethod
+WARNING: No operation matching request path "/Premoc/servicios/reconocedor/dimelo/simon" is found, Relative Path: /dimelo/simon, HTTP Method: POST, ContentType: */*, Accept: */*,. Please enable FINE/TRACE log level for more details.
+Oct 21, 2015 2:08:55 PM org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper toResponse
+WARNING: javax.ws.rs.WebApplicationException
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:415)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:216)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:91)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:263)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:240)
+	at org.apache.openejb.server.cxf.rs.CxfRsHttpListener.onMessage(CxfRsHttpListener.java:187)
+	at org.apache.openejb.server.rest.RsServlet.service(RsServlet.java:53)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:44)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1070)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+Oct 21, 2015 3:36:16 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Oct 21, 2015 3:36:16 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-80"]
+Oct 21, 2015 3:36:16 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2015 3:36:17 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Oct 21, 2015 3:36:17 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: C:\Users\Gilberto\Documents\NetBeansProjects\Premoc\build\web
+Oct 21, 2015 3:36:17 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\docs
+Oct 21, 2015 3:36:17 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\host-manager
+Oct 21, 2015 3:36:17 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\manager
+Oct 21, 2015 3:36:17 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\ROOT
+Oct 21, 2015 3:36:17 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: C:\Users\Gilberto\Downloads\javasensei-master\javasensei-master\apache-tomee-plus-1.7.1\webapps\tomee
+Oct 21, 2015 3:36:17 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-80"]
+Oct 21, 2015 3:36:17 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Oct 21, 2015 3:36:17 PM org.apache.openejb.server.SimpleServiceManager stop
+INFO: Stopping server services

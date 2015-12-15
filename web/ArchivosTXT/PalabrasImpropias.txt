@@ -1,0 +1,5 @@
+pinche		0.895	Enojo
+estupido	0.675	Enojo
+pendejo		0.950	Enojo
+chingada	0.675	Enojo
+madre		0.325	Enojo
